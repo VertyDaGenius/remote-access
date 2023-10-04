@@ -7,7 +7,6 @@ import sys
 import winshell
 from win32com.client import Dispatch
 
-#sorry not sorry
 #your computer has likely been compromised if you ran this lmao
 
 SERVER_IP = '127.0.0.1'
